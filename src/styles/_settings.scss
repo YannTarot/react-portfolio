@@ -33,6 +33,7 @@ $borderRadius: 12px;
 
 $headerHeight: 100px;
 
+
 html,
 body,
 #root {
@@ -51,4 +52,12 @@ body {
   margin: 0;
   box-sizing: border-box;
   background-color: $light;
+}
+
+.loading-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,7 +1,7 @@
 import { Canvas } from '@react-three/fiber';
 import React, { Suspense } from 'react';
 import styled from 'styled-components';
-// import Earth from './Earth';
+import Earth from './Earth';
 
 const CanvasContainer = styled.div`
   width: 80%;
@@ -18,7 +18,7 @@ const EarthCanvas = () => {
   <CanvasContainer className="stars">
     <Canvas>
       <Suspense fallback={null}>
-        {/* <Earth/> */}
+        <Earth/>
       </Suspense>
     </Canvas>
   </CanvasContainer>

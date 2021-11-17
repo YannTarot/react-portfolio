@@ -48,7 +48,7 @@ function App() {
             <p className="date" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Février 2021 - Août 2021</p>
           </div>
           <span className="languages" data-swiper-parallax="-20%">JAVASCRIPT SASS PHP PRISMIC</span>
-          <span className="caption" data-swiper-parallax="-20%">Prise en charge d'un projet de création d'un blog pour EdgeAngel en tenant compte de ses besoins et de ses contraintes, en utilisant le CMS PRISMIC. <br /> Refonte esthétRique du site en utilisant VanillaJS, HTML et CSS..</span>
+          <span className="caption" data-swiper-parallax="-20%">Prise en charge d'un projet de création d'un blog pour EdgeAngel en tenant compte de ses besoins et de ses contraintes, en utilisant le CMS PRISMIC. <br /> Refonte esthétique du site en utilisant VanillaJS, HTML et CSS..</span>
           <button className="infos"><a href="http://edgeangel.co" target="_blank" rel="noopener noreferrer">Voir le site &#8594;</a></button>
         </div>
       </div>
@@ -78,7 +78,7 @@ function App() {
             <span className="languages" data-swiper-parallax="-20%">RUBY RAILS JAVASCRIPT</span>
             <span className="caption" data-swiper-parallax="-20%">Création d'un réseau social autour du sport</span>
             <button className="infos"><a href="https://github.com/YannTarot/sport-buddies" target="_blank" rel="noopener noreferrer">Code source &#8594;</a></button>
-            <button className="infos video"><a href="https://youtu.be/TA8cCRGzXuk?t=478" target="_blank" rel="noopener noreferrer">Voir la présentation &#8594;</a></button>
+            <button className="infos video"><a href="https://youtu.be/TA8cCRGzXuk?t=478" target="_blank" rel="noopener noreferrer">Voir la présentation YouTube&#8594;</a></button>
           </div>
         </div>
       </SwiperSlide>

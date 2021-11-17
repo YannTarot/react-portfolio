@@ -20,7 +20,7 @@ const LetterAnimationBanner = () => {
 
       setTimeout(() => {
         letter.remove();
-      }, 2000);
+      }, 4000);
     };
 
     const loop = () => {
@@ -38,9 +38,9 @@ const LetterAnimationBanner = () => {
           wordIndex++;
           setTimeout(() => {
             loop();
-          }, 2000);
+          }, 4000);
         }
-      }, 80);
+      }, 70);
     };
     loop();
   }, []);

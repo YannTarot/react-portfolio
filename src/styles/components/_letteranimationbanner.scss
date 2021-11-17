@@ -4,7 +4,6 @@
 
   .iam {
     color: $dark;
-    // min-width: 45%;
   }
 
   #text-target {
@@ -14,6 +13,7 @@
     animation: color 30s alternate infinite;
     perspective: 200px;
     transform: translateX(26px);
+    margin-left: 0;
   }
   .word {
     position: absolute;
@@ -53,5 +53,8 @@
 @media(max-width: 550px) {
   .iam {
     min-width: 81px;
+  }
+  #text-target {
+    margin-left: -20px !important;
   }
 }

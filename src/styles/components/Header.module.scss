@@ -93,9 +93,13 @@
             padding-bottom: .2rem;
             border-radius: $borderRadius;
             transition: 0.3s ease all;
-            font-size: 1.1rem;
-            font-weight: 500;
+            font-size: 2rem;
+            font-weight: 700;
             position: relative;
+            @include breakpoint(md) {
+              font-size: 1.1rem;
+              font-weight: 500;
+            }
 
             &::after {
               content: "";

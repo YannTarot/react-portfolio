@@ -35,7 +35,7 @@ const ContactForm = () => {
     };
 
     if (name && isEmail() && message) {
-      const templateId = "template_aofmtvBG";
+      const templateId = "template_hgidlr8";
 
       nameS.classList.remove("red");
       emailS.classList.remove("red");
@@ -69,10 +69,10 @@ const ContactForm = () => {
     let formMess = document.querySelector(".form-message");
 
     window.emailjs
-      .send("gmail", templateId, variables)
+      .send("service_iz22gni", templateId, variables)
       .then((res) => {
         formMess.innerHTML =
-          "Message envoyé ! Nous vous recontacterons dès que possible.";
+          "Message envoyé ! Je vous recontacterai dès que possible.";
         formMess.style.background = "#00c1ec";
         formMess.style.opacity = "1";
 

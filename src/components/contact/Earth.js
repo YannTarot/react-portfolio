@@ -3,8 +3,6 @@ import { useFrame, useLoader } from '@react-three/fiber';
 import { OrbitControls, Stars } from '@react-three/drei';
 import * as THREE from "three";
 
-
-import EarthDayMap from "../../assets/textures/8k_earth_daymap.jpg"
 import EarthNormalMap from "../../assets/textures/8k_earth_normal_map.jpg"
 import EarthCloudsMap from "../../assets/textures/8k_earth_clouds.jpg"
 import EarthSpecularMap from "../../assets/textures/8k_earth_specular_map.jpg"
@@ -31,11 +29,11 @@ const Earth = (props) => {
     <pointLight color="#f6f3ea" position={[3, 0, 5]} intensity={1}/>
     <Stars radius={300}
     depth={60}
-    count={10000}
+    count={5000}
     factor={7}
     saturation={0}
     fade={true}/>
-    <mesh ref={earthRef} position={[-2, 0, 3]}>
+    <mesh ref={earthRef} position={[0, 0, 3]}>
       <sphereGeometry args={[1.005, 50, 50]}/>
       <meshPhongMaterial map={cloudsMap}
       opacity={0.2}
@@ -43,7 +41,7 @@ const Earth = (props) => {
       transparent={true}
       side={THREE.DoubleSide}/>
     </mesh>
-      <mesh ref={cloudsRef} position={[-2, 0, 3]}>
+      <mesh ref={cloudsRef} position={[0, 0, 3]}>
         <sphereGeometry args={[1, 50, 50]} />
         <meshPhongMaterial specularMap={specularMap}/>
         <meshStandardMaterial map={colorMap} normalMap={normalMap} metalness={0.4} roughness={0.7} />

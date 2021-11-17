@@ -154,7 +154,7 @@
     flex-direction: column;
   }
   .project-container .swiper-container .swiper-slide:hover .content .languages {
-    word-spacing: 25px;
+    word-spacing: 10px;
     text-align: center;
     margin-top: 10px;
   }
@@ -163,6 +163,10 @@
   }
   .project-container .swiper-container .swiper-slide .content .infos {
     margin-top: 3rem;
+  }
+  .project-container .swiper-container .swiper-slide:hover .content .caption {
+    margin-right: 5px;
+    font-size: 13px;
   }
 }
 
@@ -186,5 +190,9 @@
   }
   .project-container .swiper-container .swiper-slide:hover .content .caption {
     margin-right: 5px;
+    font-size: 13px;
+  }
+  .project-container .swiper-container .swiper-slide:hover .content .languages {
+    word-spacing: 5px;
   }
 }
