@@ -9,6 +9,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "cross-env": "^7.0.3",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^4.1.17",
     "node-modules": "^1.0.1",
@@ -31,7 +32,7 @@
     "webpack": "4.42.0"
   },
   "scripts": {
-    "start": "HOST=0.0.0.0 PORT=8080 react-scripts start",
+    "start": "cross-env PORT=8080 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -58,7 +59,6 @@
     "fsevents": "^2.3.2"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "devDependencies": {},
   "author": "",
   "license": "ISC"
 }
