@@ -6,7 +6,7 @@ const Mouse = () => {
 
   useEffect(() => {
     const onMouseMove = (e) => {
-      const { clientX, clientY } = e
+      // const { clientX, clientY } = e
       const mouseX = clientX - customRef.current.clientWidth / 2
       const mouseY = clientY - customRef.current.clientHeight / 2
       customRef.current.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`
