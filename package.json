@@ -2,6 +2,10 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "main": "index.js",
+  "engines": {
+    "npm": ">=8.3.2",
+    "node": ">=14.15.1"
+  },
   "private": true,
   "dependencies": {
     "@react-three/drei": "^7.20.5",
@@ -33,7 +37,7 @@
     "webpack-cli": "^4.9.1"
   },
   "scripts": {
-    "start": "webpack-dev-server --host 0.0.0.0 --port 80 ./js/index.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
