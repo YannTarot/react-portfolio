@@ -26,7 +26,7 @@ const Earth = (props) => {
   return (
     <>
     {/* <ambientLight intensity={1}/> */}
-    <pointLight color="#f6f3ea" position={[3, 0, 5]} intensity={1}/>
+    <pointLight color="#f6f3ea" position={[3, 0, 5]} intensity={3}/>
     <Stars radius={300}
     depth={60}
     count={5000}

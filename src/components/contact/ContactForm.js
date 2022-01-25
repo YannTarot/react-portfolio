@@ -69,7 +69,7 @@ const ContactForm = () => {
     let formMess = document.querySelector(".form-message");
 
     window.emailjs
-      .send("service_iz22gni", templateId, variables)
+      .send("service_ygs837m", templateId, variables)
       .then((res) => {
         formMess.innerHTML =
           "Message envoyé ! Je vous recontacterai dès que possible.";
